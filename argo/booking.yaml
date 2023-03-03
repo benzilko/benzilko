@@ -121,6 +121,7 @@ spec:
     metadata:
       labels:
         app: ratings
+        test: 123
         version: v1
     spec:
       serviceAccountName: bookinfo-ratings
