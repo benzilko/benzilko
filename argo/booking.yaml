@@ -49,6 +49,7 @@ metadata:
   name: bookinfo-details
   labels:
     account: details
+    test: test
 ---
 apiVersion: apps/v1
 kind: Deployment
