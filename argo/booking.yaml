@@ -49,7 +49,7 @@ metadata:
   name: bookinfo-details
   labels:
     account: details
-    test: test123
+    test: test123444
 ---
 apiVersion: apps/v1
 kind: Deployment
