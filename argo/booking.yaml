@@ -35,6 +35,7 @@ metadata:
   name: details
   labels:
     test: testlabels
+    testenv: ${TESTENV}
     app: details
     service: details
 spec:
