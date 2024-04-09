@@ -34,6 +34,7 @@ kind: Service
 metadata:
   name: details
   labels:
+    test: testlabels
     app: details
     service: details
 spec:
