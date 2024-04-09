@@ -81,6 +81,9 @@ spec:
         - containerPort: 9080
         securityContext:
           runAsUser: 1000
+        env:
+        - name: TESTENV
+          values: ASD
 ---
 ##################################################################################################
 # Ratings service
